@@ -1,12 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
 #navbar-myname {
     font-size: 150%;
     /* margin-left: 3rem; */
     color: rgb(211, 211, 211);
 }
 
-
-
 .navbar {
     background-image: url("images/navbg.png");
     margin-bottom: 2rem;
+}
+
+#my-pic{
+    float:left;
+    margin-right: 2rem;
+}
+
+#about-me, #contact {
+    margin-top: 3rem;
+}
+
+
+
+#my-footer{
+        text-align: center;
+        width: 100%;
+        background-color: #666666;
+        clear: both;
+        height: 40px;
+        opacity: 0.8;
+        color: white;
+        padding-top: 10px;
+        border-top: 8px solid;
+        border-color: #5c4aaa;    
+        /* position: fixed;
+        bottom: 0;   */
+        margin-top: 3rem;
+
 }
