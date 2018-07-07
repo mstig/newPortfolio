@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Mason Stigall's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
@@ -14,8 +16,8 @@
 
 <body>
     <nav class="navbar sticky-top navbar-expand navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" id="navbar-myname" href="index.html">Mason Stigall</a>
+        <div name="top" class="container">
+            <a class="navbar-brand" id="navbar-myname" href="#top">Mason Stigall</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,13 +25,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#top">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item" id="navbar-rightmost">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -37,7 +39,7 @@
     </nav>
 
     <div id="main-content" class="container">
-        <h2 id="portfolio-title" class="text-center">Portfolio &amp; Projects</h2>
+        <h2 name="portfolio" id="portfolio-title" class="text-center">Portfolio &amp; Projects</h2>
         <hr>
         <div class="row no-gutters" id="portfolio">
             <div class="col-lg-4 col-md-6 col-xs-12">
@@ -45,12 +47,11 @@
                     <div class="overlay text-center">
                         <span>
                             <h5 class="project-title">Show Finder</h5>
-                            <br>
                             <p class="project-summary">Find new music locally and online</p>
                             <p class="project-tech">Last.fm, Geocoding, Youtube, Ticketmaster APIs; Javascript, JQuery</p>
-                            <a href="#" target="_blank">View Repository</a>
+                            <a href="https://github.com/mstig/Project-One" target="_blank">View Repository</a>
                             <br>
-                            <a href="#" target="_blank">View Deployed Page</a>
+                            <a href="https://mstig.github.io/Project-One" target="_blank">View Deployed Page</a>
                         </span>
                     </div>
                     <img class="card-img img-fluid" src="assets/images/projone.png" alt="Card image cap">
@@ -61,12 +62,11 @@
                     <div class="overlay">
                         <span>
                             <h5 class="project-title">Giphy Searcher</h5>
-                            <br>
                             <p class="project-summary">Search for various assortments of gifs</p>
                             <p class="project-tech">Giphy API; Javascript, JQuery</p>
-                            <a href="#" target="_blank">View Repository</a>
+                            <a href="https://github.com/mstig/gifAPI" target="_blank">View Repository</a>
                             <br>
-                            <a href="#" target="_blank">View Deployed Page</a>
+                            <a href="https://mstig.github.io/gifAPI/" target="_blank">View Deployed Page</a>
                         </span>
                     </div>
                     <img class="card-img-top img-fluid" src="assets/images/gifapi.png" alt="Card image cap">
@@ -77,12 +77,11 @@
                     <div class="overlay">
                         <span>
                             <h5 class="project-title">Database &amp; Timers</h5>
-                            <br>
                             <p class="project-summary">Schedule and observe trains via database</p>
                             <p class="project-tech">Firebase, MomentJS; Javascript, JQuery</p>
-                            <a href="#" target="_blank">View Repository</a>
+                            <a href="https://github.com/mstig/firebasetrains" target="_blank">View Repository</a>
                             <br>
-                            <a href="#" target="_blank">View Deployed Page</a>
+                            <a href="https://mstig.github.io/firebasetrains/" target="_blank">View Deployed Page</a>
                         </span>
                     </div>
                     <img class="card-img-top img-fluid" src="assets/images/trainimg.jpg" alt="Card image cap">
@@ -94,12 +93,11 @@
                     <div class="overlay">
                         <span>
                             <h5 class="project-title">Rock 'n' Roll Trivia</h5>
-                            <br>
                             <p class="project-summary">Musical trivia challenge</p>
                             <p class="project-tech">Javascript, JQuery</p>
-                            <a href="#" target="_blank">View Repository</a>
+                            <a href="https://github.com/mstig/TriviaGame" target="_blank">View Repository</a>
                             <br>
-                            <a href="#" target="_blank">View Deployed Page</a>
+                            <a href="https://mstig.github.io/TriviaGame/" target="_blank">View Deployed Page</a>
                         </span>
                     </div>
                     <img class="card-img-top img-fluid" src="assets/images/trivgame.jpg" alt="Card image cap">
@@ -110,12 +108,11 @@
                     <div class="overlay">
                         <span>
                             <h5 class="project-title">Star Wars RPG</h5>
-                            <br>
                             <p class="project-summary">Star Wars combat game</p>
                             <p class="project-tech">Javascript, JQuery</p>
-                            <a href="#" target="_blank">View Repository</a>
+                            <a href="https://github.com/mstig/unit-4-game" target="_blank">View Repository</a>
                             <br>
-                            <a href="#" target="_blank">View Deployed Page</a>
+                            <a href="https://mstig.github.io/unit-4-game/" target="_blank">View Deployed Page</a>
                         </span>
                     </div>
                     <img class="card-img-top img-fluid" src="assets/images/starwars.jpg" alt="Card image cap">
@@ -126,12 +123,11 @@
                     <div class="overlay">
                         <span>
                             <h5 class="project-title">Classic Rock Hangman</h5>
-                            <br>
                             <p class="project-summary">Word guess game</p>
                             <p class="project-tech">Javascript</p>
-                            <a href="#" target="_blank">View Repository</a>
+                            <a href="https://github.com/mstig/Word-Guess-Game" target="_blank">View Repository</a>
                             <br>
-                            <a href="#" target="_blank">View Deployed Page</a>
+                            <a href="https://mstig.github.io/Word-Guess-Game/" target="_blank">View Deployed Page</a>
                         </span>
                     </div>
                     <img class="card-img-top img-fluid" src="assets/images/wordguessimg.png" alt="Card image cap">
@@ -141,24 +137,40 @@
 
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                <div id="about-me">
+                <div id="about-me" name="about">
                     <h3 id="about-title" class="text-center">About Me</h3>
                     <hr>
                     <img id="my-pic" src="assets/images/headshot.png" alt="Mason Stigall">
-                    <p>&nbsp; &nbsp; I am currently a student in University of Richmond's full stack web development program, seeking employment
-                        in web development after graduation in October 2018. Development skills include Java, Javascript,
+                    <p>&nbsp; &nbsp; I am currently a student in University of Richmond's full stack web development program,
+                        seeking employment in web development after graduation in October 2018. Skills include Java, Javascript,
                         JQuery, Node.js, HTML, and CSS.</p>
-                    <p>&nbsp; &nbsp; Outside of development, I enjoy playing guitar and electric bass, as well as soccer and rugby.</p>
+                    <p>&nbsp; &nbsp; Outside of development, I enjoy playing guitar and electric bass, as well as soccer and
+                        rugby.
+                    </p>
                 </div>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                <div id="contact">
+                <div id="contact" name="contact">
                     <h3 id="contact-title" class="text-center">Contact</h3>
                     <hr>
-                    <p>include github link</p>
-                    <p>include linkedin link</p>
-                    <p>include gmail address</p>
+                    <br>
+                        <ul id="contact-list" style="list-style-type:none">
+                            <li>
+                                <i class="fab fa-github-square fa-3x"></i>
+                                <a class="contact-link" href="https://github.com/mstig" target="_blank">Github</a>
+                            </li>
+                            <br>
+                            <li>
+                                <i class="fab fa-linkedin fa-3x"></i>
+                                <a class="contact-link" href="https://www.linkedin.com/in/mason-stigall-399041134/" target="_blank">LinkedIn</a>
+                            </li>
+                            <br>
+                            <li>
+                                <i class="fas fa-envelope-square fa-3x"></i>
+                                masonstigall@gmail.com
+                            </li>
+                        </ul>
                 </div>
             </div>
         </div>
