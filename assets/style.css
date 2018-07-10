@@ -43,7 +43,6 @@ a:hover {
 
 .card:hover > .overlay{
     opacity: 1;
-    position: absolute;
 }
 
 .overlay{
@@ -108,4 +107,12 @@ a:hover {
 .row.no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+}
+
+
+/* Add focus instead of hover for smaller screens on tablets or phones */
+@media screen and (max-width: 768px){
+    .card:focus > .overlay{
+        opacity: 1;
+    }
 }
