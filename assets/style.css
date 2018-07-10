@@ -41,7 +41,7 @@ a:hover {
 }
 
 .card:hover > .overlay,
-.card:focus > .overlay{
+.card:active > .overlay{
     opacity: 1;
 }
 
