@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
-    border-radius: 0 !important;
-    
+    border-radius: 0 !important;    
 }
 
 body {
@@ -41,7 +40,8 @@ a:hover {
     border: none;
 }
 
-.card:hover > .overlay{
+.card:hover > .overlay,
+.card:focus > .overlay{
     opacity: 1;
 }
 
@@ -110,9 +110,9 @@ a:hover {
 }
 
 
-/* Add focus instead of hover for smaller screens on tablets or phones */
-@media screen and (max-width: 768px){
-    .card:focus > .overlay{
-        opacity: 1;
+/* Media Query for smaller touch screens to activate the card hover on project items */
+@media screen and (max-width: 768px){  
+    body {
+        cursor: pointer;
     }
 }
