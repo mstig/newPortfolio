@@ -108,11 +108,3 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
 }
-
-
-/* Media Query for smaller touch screens to activate the card hover on project items */
-@media screen and (max-width: 768px){  
-    body {
-        cursor: pointer;
-    }
-}
