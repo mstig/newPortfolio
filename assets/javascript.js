@@ -1,10 +1,11 @@
 $(document).ready(function () {
-    //If using tablet or mobile, uses this function instead of hover to display project information
-    //Downside: doesn't unfade.  Tried multiple ways to get the hover to work and this was the only way that did
-    var windowSize = window.matchMedia("(max-width: 768px)");
-    $(".overlay").on("click", function () {
-        if (windowSize.matches) {
-            $(this).css("opacity", 1);
-        }
+  
+    //This is used primarily for mobile since they cannot hover the card/project objects
+    //Adds class to darken the opacity of overlays on click
+    //Will remove class and fade other active overlays if new one is selected
+    $(".overlay").on("click", function() {
+        $(".overlay").removeClass("clickOpacity");
+        $(this).addClass("clickOpacity");
     });
+    
 })

@@ -108,3 +108,8 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
 }
+
+/* Used so mobile users can highlight project items instead of hover */
+.clickOpacity{
+    opacity: 1;
+}
