@@ -3,9 +3,19 @@
     border-radius: 0 !important;    
 }
 
+html {
+    min-height: 100%;
+    position: relative;
+}
 body {
     background-color: rgb(233, 233, 233);
     font-family: 'Rokkitt', serif;
+    height: 100%;
+}
+
+.container-fluid {
+    padding: 0px;
+    height: 100%;
 }
 
 a{
@@ -22,13 +32,17 @@ a:hover {
 }
 
 .navbar {
-    background-image: url("images/navbg.png");
+    background-image: url("../images/navbg.png");
     margin-bottom: 2rem;
 }
 
+#main-content {
+    margin-bottom: 80px;
+}
+
 #my-pic{
-    float:left;
-    margin-right: 2rem;
+    float: left;
+    margin-right: 1rem;
 }
 
 #about-me, #contact {
@@ -96,6 +110,8 @@ a:hover {
         border-top: 8px solid;
         border-color: #3f2b96;    
         margin-top: 3rem;
+        position: absolute;
+        bottom: 0;
 }
 
 .row.no-gutters {
